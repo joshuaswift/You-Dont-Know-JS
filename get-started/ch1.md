@@ -75,7 +75,6 @@ All proposals are managed in the open, on TC39's Github repository: https://gith
 
 Anyone, whether on TC39 or not, is welcome to participate in these public discussions and the processes for working on the proposals. However, only TC39 members can attend meetings and vote on the proposals and changes. So in effect, the voice of a TC39 member carries a lot of weight in where JS will go.
 
-**BOOKMARK**
 
 Contrary to some established and frustratingly perpetuated myth, there are *not* multiple versions of JavaScript in the wild. There's just **one JS**, the official standard as maintained by TC39 and ECMA.
 
@@ -104,7 +103,7 @@ Section B.1 and B.2 cover *additions* to JS (syntax and APIs) that web JS includ
 Section B.3 includes some conflicts where code may run in both web and non-web JS engines, but where the behavior *could* be observably different, resulting in different outcomes. Most of the listed changes involve situations that are labeled as early errors when code is running in strict mode.
 
 Appendix B *gotchas* aren't encountered very often, but it's still a good idea to avoid these constructs to be future safe. Wherever possible, adhere to the JS specification and don't rely on behavior that's only applicable in certain JS engine environments.
-
+**BOOKMARK**
 ### Not All (Web) JS...
 
 Is this code a JS program?
