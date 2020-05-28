@@ -103,7 +103,7 @@ Section B.1 and B.2 cover *additions* to JS (syntax and APIs) that web JS includ
 Section B.3 includes some conflicts where code may run in both web and non-web JS engines, but where the behavior *could* be observably different, resulting in different outcomes. Most of the listed changes involve situations that are labeled as early errors when code is running in strict mode.
 
 Appendix B *gotchas* aren't encountered very often, but it's still a good idea to avoid these constructs to be future safe. Wherever possible, adhere to the JS specification and don't rely on behavior that's only applicable in certain JS engine environments.
-**BOOKMARK**
+
 ### Not All (Web) JS...
 
 Is this code a JS program?
@@ -153,6 +153,8 @@ But I'll just hint at some examples of quirks that have been true at various poi
 The developer console is not trying to pretend to be a JS compiler that handles your entered code exactly the same way the JS engine handles a .js file. It's trying to make it easy for you to quickly enter a few lines of code and see the results immediately. These are entirely different use cases, and as such, it's unreasonable to expect one tool to handle both equally.
 
 Don't trust what behavior you see in a developer console as representing *exact* to-the-letter JS semantics; for that, read the specification. Instead, think of the console as a "JS-friendly" environment. That's useful in its own right.
+
+**BOOKMARK**
 
 ## Many Faces
 
