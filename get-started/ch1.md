@@ -178,11 +178,13 @@ JavaScript is most definitely a multi-paradigm language. You can write procedura
 
 ## Backwards & Forwards
 
-**BOOKMARK**
+
 
 One of the most foundational principles that guides JavaScript is preservation of *backwards compatibility*. Many are confused by the implications of this term, and often confuse it with a related but different term: *forwards compatibility*.
 
 Let's set the record straight.
+
+**BOOKMARK**
 
 Backwards compatibility means that once something is accepted as valid JS, there will not be a future change to the language that causes that code to become invalid JS. Code written in 1995—however primitive or limited it may have been!—should still work today. As TC39 members often proclaim, "we don't break the web!"
 
