@@ -184,8 +184,6 @@ One of the most foundational principles that guides JavaScript is preservation o
 
 Let's set the record straight.
 
-**BOOKMARK**
-
 Backwards compatibility means that once something is accepted as valid JS, there will not be a future change to the language that causes that code to become invalid JS. Code written in 1995—however primitive or limited it may have been!—should still work today. As TC39 members often proclaim, "we don't break the web!"
 
 The idea is that JS developers can write code with confidence that their code won't stop working unpredictably because a browser update is released. This makes the decision to choose JS for a program a more wise and safe investment, for years into the future.
